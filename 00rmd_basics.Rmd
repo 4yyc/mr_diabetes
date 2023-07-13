@@ -27,3 +27,20 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r sample code}
+# 這是一個 R 代碼塊
+x <- 5
+y <- 10
+sum <- x + y
+```
+
+```{r sample plot, echo=FALSE}
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 4, 6, 8, 10)
+
+# Create a scatter plot
+plot(x, y, main = "Scatter Plot", xlab = "X", ylab = "Y")
+```
+
