@@ -1,7 +1,12 @@
 ---
 title: "01rmarkd_baiscs"
-output: html_document
 date: "2023-07-12"
+author: "I am the author"
+output:
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
